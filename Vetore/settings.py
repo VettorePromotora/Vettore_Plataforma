@@ -28,7 +28,7 @@ SECRET_KEY = 'django-insecure-_jr@h21t0ofsyb&d2&w2vy*7m%74-ev0&mgc^skr7w%o!74@l2
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost']
+ALLOWED_HOSTS = ['127.0.0.1:$PORT', 'localhost']
 
 MESSAGE_STORAGE = "django.contrib.messages.storage.cookie.CookieStorage"
 
@@ -175,7 +175,7 @@ ROLEPERMISSIONS_MODULE = 'Vetore.roles'
 ROLEPERMISSIONS_REGISTER_ADMIN = True
 ROLEPERMISSIONS_REDIRECT_TO_LOGIN = True
 
-django_on_heroku.settings(locals())
+# django_on_heroku.settings(locals())
 
 USE_DJANGO_JQUERY = True
 

@@ -12,7 +12,6 @@ https://docs.djangoproject.com/en/4.0/ref/settings/
 import os.path
 from django.conf.global_settings import LANGUAGES as DJANGO_LANGUAGES
 from pathlib import Path
-import django_on_heroku
 
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.

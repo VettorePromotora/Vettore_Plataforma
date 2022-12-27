@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-_jr@h21t0ofsyb&d2&w2vy*7m%74-ev0&mgc^skr7w%o!74@l2
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['syswebvettore.up.railway.app', 'syswebvettore.up.railway.app', '127.0.0.1']
+ALLOWED_HOSTS = ['syswebvettore.com', 'syswebvettore.up.railway.app', '127.0.0.1']
 
 MESSAGE_STORAGE = "django.contrib.messages.storage.cookie.CookieStorage"
 

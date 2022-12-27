@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-_jr@h21t0ofsyb&d2&w2vy*7m%74-ev0&mgc^skr7w%o!74@l2
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ["*"]
 
 MESSAGE_STORAGE = "django.contrib.messages.storage.cookie.CookieStorage"
 
@@ -69,7 +69,6 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-
 ]
 
 ROOT_URLCONF = 'Vetore.urls'
@@ -92,7 +91,6 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'Vetore.wsgi.application'
-
 
 # Database
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases

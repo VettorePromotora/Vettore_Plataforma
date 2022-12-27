@@ -1,1 +1,1 @@
-web: python manage.py migrate && python manage.py runserver && gunicorn Vetore.wsgi --log-file -
+web: gunicorn Vetore.wsgi

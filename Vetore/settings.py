@@ -174,7 +174,6 @@ ROLEPERMISSIONS_MODULE = 'Vetore.roles'
 ROLEPERMISSIONS_REGISTER_ADMIN = True
 ROLEPERMISSIONS_REDIRECT_TO_LOGIN = True
 
-# django_on_heroku.settings(locals())
 
 USE_DJANGO_JQUERY = True
 

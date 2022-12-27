@@ -1,1 +1,1 @@
-web: pip install git+https://github.com/benoitc/gunicorn.git Vetore.wsgi
+web: gunicorn Vetore.wsgi
